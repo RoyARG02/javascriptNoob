@@ -6,7 +6,7 @@ functions, but have different behaviour*/
 'let','const' defined variables have "block" scope(can be accessed ONLY in the block {...}
     in which they are defined)
 additionaly, 'const' variables have to be assigned a value at declaration, which cannot be 
-    further chaned/modified */
+    further changed/modified */
 var aNum=100;
 const aConst='MEGALOVANIA';
 {

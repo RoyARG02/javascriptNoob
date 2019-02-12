@@ -10,12 +10,16 @@ var foo=123;
 /*console.log(someData);
 let someData='You shall not pass';
 */
-/*for undeclared variables in functions, it is hoisted as
+/*for undeclared variables in functions/blocks, it is hoisted as
     a "global" variable, provided there is no declaration in
-    the function block*/
+    the function/block*/
 function bar(){
     num=399;
+    {
+        nested='Bruh';     //this also applies for nested functions/blocks
+    }
 }
 
 bar();
 console.log(num);   //gives 399
+console.log(nested);    //gives 'Bruh'
