@@ -14,7 +14,7 @@ const aConst='MEGALOVANIA';
     let LET=0;
     const CONST=3.14159265;
 }
-//aConst='PAPYRUS'      //out of scope
+//aConst='PAPYRUS'                //won't work
 console.log('aNum= ',aNum);
 console.log('aConst= ',aConst);
 console.log('VAR= ',VAR);

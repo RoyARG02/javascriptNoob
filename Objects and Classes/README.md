@@ -1,2 +1,2 @@
-Objects and Classes
-    1. Objects
+Objects and Classes:
+  1. Objects
