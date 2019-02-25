@@ -12,5 +12,5 @@ function Hobbit(str){
 var Baggins=new Hobbit('Frodo');
 console.log(aNum+' is a typeof '+typeof aNum);
 console.log(aString +' is a typeof '+typeof aString);
-console.log(aFunction(),' is a typeof '+typeof aFunction);
+console.log(aFunction,' is a typeof '+typeof aFunction);
 console.log(Baggins,' is a typeof '+typeof Baggins);
