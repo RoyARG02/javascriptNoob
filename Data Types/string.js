@@ -11,7 +11,7 @@ process.stdout.write(aString+'\n');
 //some functions
 //substr(<start>,<length>)  length is optional
 //returns part of a string
-var extract=someString.substr(3,7); //5 characters starting from '3rd' character of string
+var extract=someString.substr(3,7); //7 characters starting from '3rd' character of string
 console.log(extract);
 var three=anotherString.substr(10); //entire string from '10th' character
 console.log(three);
