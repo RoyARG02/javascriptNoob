@@ -2,19 +2,21 @@
 //having an association between a property and a value
 //An object can be defined in many ways:
 //Creating an object by directly assigning property value
-let phone1={
+let android={
     os:'Android 9',
-    RAM:4,
-    camera:12,
-    maker:'Xiaomi',
-    model:'Mi A1'
-};
-console.log(phone1);
+    name: 'Pie',
+    API:28,
+    year:2018,
+}
+console.log(android);
 
-//accessing each of the property of the object
-console.log(phone1.maker);
-phone1.maker='Asus';
-console.log(phone1);
+//accessing (and modifying) each of the property of the object
+console.log(android.year);
+android.year=2019;
+android.name='Q';
+android.os='Android 10'
+android.API='Q';
+console.log(android);
 
 //creating an object by adding properties to an empty object
 let language={};        //can be also done by language=new Object()
